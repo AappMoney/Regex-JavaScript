@@ -18,6 +18,15 @@ console.log(result); // ['H', 'e', 'l', 'l', 'o','g', 'u', 'y', 's', 'm','y', 'n
 
 
 /*
+let humStr = "I'll hum a song";
+let hugStr = "Bear hug";
+let huRegex = /hu./;
+huRegex.test(humStr); // Returns true
+huRegex.test(hugStr); // Returns true
+*/
+
+
+/*
 let str = "3hello guys6";
 let regex = /[^0-9aeiou]/ig;
 let result = str.match(regex);
